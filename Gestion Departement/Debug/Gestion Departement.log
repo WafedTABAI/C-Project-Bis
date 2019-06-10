@@ -1,0 +1,37 @@
+﻿La génération a démarré 30/05/2019 9:01:22 AM.
+     1>Projet "C:\Users\wafed\Documents\Visual Studio 2012\Projects\Gestion Departement\Gestion Departement\Gestion Departement.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Fonctions.cpp Main.cpp
+         Main.cpp
+     1>c:\users\wafed\documents\visual studio 2012\projects\gestion departement\gestion departement\main.cpp(91): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\conio.h(131) : voir la déclaration de 'getch'
+         Fonctions.cpp
+     1>c:\users\wafed\documents\visual studio 2012\projects\gestion departement\gestion departement\fonctions.cpp(15): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : voir la déclaration de 'scanf'
+     1>c:\users\wafed\documents\visual studio 2012\projects\gestion departement\gestion departement\fonctions.cpp(17): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : voir la déclaration de 'scanf'
+     1>c:\users\wafed\documents\visual studio 2012\projects\gestion departement\gestion departement\fonctions.cpp(19): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : voir la déclaration de 'scanf'
+     1>c:\users\wafed\documents\visual studio 2012\projects\gestion departement\gestion departement\fonctions.cpp(21): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : voir la déclaration de 'scanf'
+     1>c:\users\wafed\documents\visual studio 2012\projects\gestion departement\gestion departement\fonctions.cpp(23): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : voir la déclaration de 'scanf'
+     1>c:\users\wafed\documents\visual studio 2012\projects\gestion departement\gestion departement\fonctions.cpp(166): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+     1>c:\users\wafed\documents\visual studio 2012\projects\gestion departement\gestion departement\fonctions.cpp(291): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : voir la déclaration de 'strcpy'
+     1>c:\users\wafed\documents\visual studio 2012\projects\gestion departement\gestion departement\fonctions.cpp(321): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : voir la déclaration de 'scanf'
+     1>c:\users\wafed\documents\visual studio 2012\projects\gestion departement\gestion departement\fonctions.cpp(487): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : voir la déclaration de 'scanf'
+     1>c:\users\wafed\documents\visual studio 2012\projects\gestion departement\gestion departement\fonctions.cpp(498): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\conio.h(131) : voir la déclaration de 'getch'
+         Génération de code en cours...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\wafed\Documents\Visual Studio 2012\Projects\Gestion Departement\Debug\Gestion Departement.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\wafed\Documents\Visual Studio 2012\Projects\Gestion Departement\Debug\Gestion Departement.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\wafed\Documents\Visual Studio 2012\Projects\Gestion Departement\Debug\Gestion Departement.lib" /MACHINE:X86 Debug\Fonctions.obj
+         Debug\Main.obj
+         Gestion Departement.vcxproj -> C:\Users\wafed\Documents\Visual Studio 2012\Projects\Gestion Departement\Debug\Gestion Departement.exe
+     1>Génération du projet "C:\Users\wafed\Documents\Visual Studio 2012\Projects\Gestion Departement\Gestion Departement\Gestion Departement.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:01.59
