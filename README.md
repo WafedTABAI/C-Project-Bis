@@ -1,34 +1,43 @@
 import React from 'react';
-import './JoelTestQuestion.css'; // Import your CSS file
+import { Question } from "../definition/Question";
+import { JOEL_QUESTIONS } from "../definition/data";
+import { NavBar } from './NavBar';
+import QuestionComponent from './QuestionComponent'; // Import your QuestionComponent
+import "../../styles/scss/common.scss";
 
-interface JoelTestQuestionProps {
-  questionNumber: number;
-  questionText: string;
+interface JoelsAppState {
+  questions: Question[];
 }
 
-const JoelTestQuestion: React.FC<JoelTestQuestionProps> = ({ questionNumber, questionText }) => {
-  return (
-    <div className="joel-test-question">
-      <div className="browser-frame"> {/* Mimic browser frame */}
-        <div className="title-bar">Joel's Test</div>
-        <div className="address-bar">
-          ← → C 127.0.0.1:8080 Q ☆
-        </div>
-        <div className="page-content">
-          <div className="question-header">
-            <h1>The Joel Test</h1>
-            <p>by Joel Spolsky</p>
-          </div>
-          <div className="question-box">
-            <p>{questionNumber}) {questionText}</p>
-          </div>
+class JoelsApp extends React.Component<{}, JoelsAppState> {
+  constructor(props) {
+    super(props);
+    this.state = {
+      questions: JOEL_QUESTIONS,
+    };
+  }
+
+  render() {
+    return (
+      <div className="question-manager">
+        <NavBar title="The Joel Test" subTitle="by Joel Spolsky" />
+        <div className="app-container">
+          {/* Render the questions */}
+          {this.state.questions.map((question, index) => (
+            <QuestionComponent 
+              key={index} // Important: Add a unique key
+              questionNumber={index + 1} 
+              questionText={question.text} // Assuming 'text' property holds the question
+            />
+          ))}
         </div>
       </div>
-    </div>
-  );
-};
+    );
+  }
+}
 
-export default JoelTestQuestion;
+export default JoelsApp;
+
 
 ******
 
